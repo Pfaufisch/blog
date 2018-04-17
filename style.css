@@ -1,0 +1,59 @@
+/* Allgemeiner Kram */
+
+:root {
+    --dunkelgruen: #046362;
+    --hellgruen: #26AAB6;
+    --hellblau: #B4D5FB;
+    --blau: #384BDB;
+    --schwarz: #040B1C;
+    }
+
+    html {
+        font-family: Georgia, serif;
+        font-size: 20px;
+        color: var(--schwarz);
+        box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    a {
+        color: var(--blau);
+        padding: 1px;
+        text-decoration: none;
+        border-bottom: 2px solid var(--blau);
+    }
+
+    a:hover {
+        color: rgb(235, 235, 235);
+        background-color: var(--blau);
+        transition: all 0.2s;
+    }
+
+.wrapper {
+    max-width: 700px;
+    margin: 100px auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.note {
+    background-color: rgba(253, 214, 39, 0.185);
+    padding: 20px;
+}
+.meta {
+    font-size: 0.8em;
+}
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
