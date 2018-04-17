@@ -50,6 +50,11 @@ p {
     background-color: rgba(253, 214, 39, 0.185);
     padding: 20px;
 }
+
+li .note {
+    padding: 3px;
+}
+
 .meta {
     font-size: 0.8em;
 }
