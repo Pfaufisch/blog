@@ -57,3 +57,11 @@ p {
     text-align: center;
     margin-top: 50px;
 }
+h2 {
+    font-size: 1.2em;
+}
+
+ul li {
+    list-style-type: square;
+    line-height: 1.6;
+}
