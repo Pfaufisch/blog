@@ -112,6 +112,13 @@
             line-height: 1.5;
             padding: 10px;
         }
+
+        ol li {
+            line-height: 1.5;
+        }
+        li {
+            padding: 3px;
+        }
         
         @media (max-width: 800px) {
             .article {
