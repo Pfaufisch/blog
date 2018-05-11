@@ -51,8 +51,29 @@ p {
     padding: 20px;
 }
 
-li .note {
+
+li .tag {
     padding: 3px;
+    font-size: 17px;
+}
+
+li .note {
+    background-color: rgba(253, 214, 39, 0.185);
+}
+li .review {
+    padding: 3px;
+    background-color: rgb(70, 66, 252);
+    color: rgb(243, 243, 243);
+}
+li .love {
+    padding: 3px;
+    background-color: rgb(228, 72, 72);
+    color: rgb(243, 243, 243);
+}
+li .hate {
+    padding: 3px;
+    background-color: rgb(169, 47, 206);
+    color: rgb(243, 243, 243);
 }
 
 .meta {
@@ -64,6 +85,7 @@ li .note {
 }
 h2 {
     font-size: 1.2em;
+    margin-top: 60px;
 }
 
 ul li {
