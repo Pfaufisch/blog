@@ -76,6 +76,12 @@ li .hate {
     color: rgb(243, 243, 243);
 }
 
+li .tech {
+    padding: 3px;
+    background-color: rgb(223, 226, 8);
+    color: #000000;
+}
+
 .meta {
     font-size: 0.8em;
 }
