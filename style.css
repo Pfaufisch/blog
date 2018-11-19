@@ -52,7 +52,8 @@ p {
 }
 
 
-li .tag {
+li .tag,
+li .status {
     padding: 3px;
     font-size: 17px;
 }
@@ -79,6 +80,18 @@ li .hate {
 li .tech {
     padding: 3px;
     background-color: rgb(223, 226, 8);
+    color: #000000;
+}
+
+li .geplant {
+    padding: 3px;
+    background-color: rgb(248, 214, 23);
+    color: #000000;
+} 
+
+li .test {
+    padding: 3px;
+    background-color: rgb(228, 133, 9);
     color: #000000;
 }
 
